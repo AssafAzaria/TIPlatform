@@ -1,0 +1,106 @@
+# 
+# Elasticsearch details.
+# 
+
+# host of Elasticsearch. The default is 'localhost'
+elastic.host: 10.168.233.5
+
+# The URL of the Elasticsearch instance to use for all your queries.
+# The default is 'http://localhost:9200'
+elastic.url: "http://10.168.233.5:9200"
+
+# Main ES index name. Default is 'intelligence'
+elastic.index.name: "intelligence_bak"
+
+# ES cluster name. Default is 'intelligence'
+elastic.cluster.name: "intelligence"
+
+# ES node name to connect to from java. Default is 'intelligence1'
+elastic.node.name: "intelligence1"
+
+#
+# VirtualBox details
+#
+
+# url to vbox web service. Default is "http://localhost:18083/"
+vbox.url: "http://localhost:18083/"
+
+# 
+# CNC details.
+#
+# The ip on which ddp is installed. Default is "10.164.237.73"
+ddp.host.name: 10.164.237.73
+
+# The list of ip's on which cnc are installed. Default is "10.164.237.74"
+cnc.host.names:  
+  - name: 10.164.237.74
+    environment: 200
+  - name: 10.164.237.50
+    environment: 210
+
+# Cnc environment profile. Default - 200. See __
+#cnc.environment: 200 
+
+# user name for ddp machine. Default is "ubuntu"
+ddp.user.name: "ubuntu"
+
+# password for ddp machine. Default is "ubuntu"
+ddp.password: "ubuntu"
+
+# ddp path to upload files into. Default is "/tmp/pcaps"
+ddp.files.path: "/tmp/pcaps"
+
+# the path to the log file we tail on cnc machine
+dap.log.file: /opt/clearsky/dap/clearsky.0
+
+# the path to the log file we tail on ddp machine
+ddp.log.file: /opt/clearsky/ddp/tcp_sender/clearsky.0
+
+# database url (host:port). Default is localhost:3306
+db.url: localhost:3306
+
+# database that holds dsr data. Default is "clearsky_buffer"
+dsr.db.name: "clearsky_buffer"
+
+# database that holds alerts data. Default is "clearsky_data"
+alerts.db.name: "clearsky_data"
+
+# Table name for lap data. Default is "s_lap_monitor"
+lap.table.name: "s_lap_monitor"
+
+# database user name. Default is "dapuser"
+db.user.name: "dapuser"
+
+# database password. Default is "cyber"
+db.password: "cyber"
+
+#
+# VirusTotalDownloader details
+# "vt_downloads"
+vt.downloads.dir: "files_to_test" 
+vt.params.file: "params.txt"
+
+#
+# Main controller details
+#
+
+# Inidcates whether to run the edr controller. Default false
+run.edr.controller: false
+
+# Inidcates whether to run the cnc controller. Default false
+run.cnc.controller: true
+
+# Inidcates whether to run the cnc controller. Default false
+run.payload.controller: true
+
+# Inidcates whether to run the moloch controller. Default false
+run.moloch.controller: false
+
+# path of files to submit. Default files_to_test
+submit.files.path: files_to_test
+
+# path of to save submitted files on. Default 'submitted_files'
+save.files.path: submitted_files
+
+# path of to save daily reports on submitted files. Default 'daily_reports'
+daily.report.path: daily_reports

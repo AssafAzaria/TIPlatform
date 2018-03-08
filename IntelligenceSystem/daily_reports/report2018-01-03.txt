@@ -1,0 +1,18 @@
+File_Name            Sha-256_Hash                                                           EDR             Sandbox         CNC             
+---------------      ---------------                                                        ----------      ----------      ----------      
+pcaptests            b744f2c9b4dada5336df8efffd3b0efc3fa1cb1fde18eeed82bb4318d3101291       not supported   not supported   not supported   
+intelligence.yml     62efc3cdf7cbe335556bdd691845c65036d72998ee78dc3d31a669708f3c255a       not supported   not supported   not supported   
+ssh_log.log          a7ca8b86b8589bb54b9e55451d36005807520e43759cb0398f281cb120aeda94       not supported   not supported   not supported   
+pom.xml              9f8eb12d9bde2fc80266e5f3b06f56ccb08715b0b71458220c7a473ced445d14       not supported   not supported   not supported   
+pcaptests            b744f2c9b4dada5336df8efffd3b0efc3fa1cb1fde18eeed82bb4318d3101291       not supported   not supported   not supported   
+intelligence.yml     62efc3cdf7cbe335556bdd691845c65036d72998ee78dc3d31a669708f3c255a       not supported   not supported   not supported   
+ssh_log.log          a7ca8b86b8589bb54b9e55451d36005807520e43759cb0398f281cb120aeda94       not supported   not supported   not supported   
+pom.xml              9f8eb12d9bde2fc80266e5f3b06f56ccb08715b0b71458220c7a473ced445d14       not supported   not supported   not supported   
+pcaptests            b744f2c9b4dada5336df8efffd3b0efc3fa1cb1fde18eeed82bb4318d3101291       not supported   not supported   not supported   
+intelligence.yml     62efc3cdf7cbe335556bdd691845c65036d72998ee78dc3d31a669708f3c255a       not supported   not supported   not supported   
+ssh_log.log          a7ca8b86b8589bb54b9e55451d36005807520e43759cb0398f281cb120aeda94       not supported   not supported   not supported   
+pom.xml              9f8eb12d9bde2fc80266e5f3b06f56ccb08715b0b71458220c7a473ced445d14       not supported   not supported   not supported   
+pcaptests            b744f2c9b4dada5336df8efffd3b0efc3fa1cb1fde18eeed82bb4318d3101291       not supported   not supported   not supported   
+intelligence.yml     62efc3cdf7cbe335556bdd691845c65036d72998ee78dc3d31a669708f3c255a       not supported   not supported   not supported   
+ssh_log.log          a7ca8b86b8589bb54b9e55451d36005807520e43759cb0398f281cb120aeda94       not supported   not supported   not supported   
+pom.xml              9f8eb12d9bde2fc80266e5f3b06f56ccb08715b0b71458220c7a473ced445d14       not supported   not supported   not supported   

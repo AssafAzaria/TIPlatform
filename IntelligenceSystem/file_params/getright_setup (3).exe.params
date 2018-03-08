@@ -1,0 +1,7 @@
+{
+	"file": "getright_setup (3).exe",
+	"source": "System32",
+	"params": ["xxx", "-f yyy", "zzz"],
+	"maliciousness": "benign",
+	"search": "positives:5+"
+}
